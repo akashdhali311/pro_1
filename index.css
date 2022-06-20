@@ -1,0 +1,130 @@
+/* Global Css  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+.global-btn{
+    width: 155px;
+    height: 40px;
+    background-color: black;
+    color: rgb(161, 95, 69);
+}
+.global-section{
+    padding: 3rem 0;
+}
+.global-heading{
+    float: 55px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.global-head-p{
+     color: rgb(161, 95, 69);
+     text-align: center;
+}
+/* This is Header  */
+header{
+    background-color: rgb(20, 131, 103);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+header p{
+    margin-left: 25px;
+    font-size: 30px;
+}
+.main-menu ul li{
+    font-size: 20px;
+    display: inline;
+    margin-right: 30px;
+}
+/* Frist Section  */
+.frist-section{
+    background-image: url(./image/img-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+.frist-section p{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+.frist-section h3{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+ /* About Us Section  */
+.about-main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.about-main-div2{
+    width: 800px;
+}
+.about-sub-div2{
+    font-size: 25px;
+}
+.about-sub-div2 p{
+    color: rgb(161, 95, 69);
+    margin: 15px 0;
+}
+/* This Is Service Area  */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2{
+    margin: 15px 0;
+}
+.grid-single-item p{
+    color: rgb(161, 95, 69);
+}
+.custom-icon-size{
+    font-size: 45px;
+}
+/* Work Section  */
+.work-single-img{
+    width: 350px;
+}
+/* Testimonial section   */
+.Testimonial-p{
+    color: black !important;
+}
+/* Content Section  */
+.contact-haeding{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 48rem;
+    margin-top: 30px;
+}
+form input{
+    width: 230px;
+}
+.submit-btn{
+    width: 236px;
+    height: 30px;
+    background: rgb(191, 209, 211);
+}
+/* This is footer  */
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    height: 3rem;
+}
+footer p{
+    padding-top: 15px;
+}
